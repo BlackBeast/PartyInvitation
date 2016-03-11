@@ -1,0 +1,57 @@
+Library to print labels(representation of record) on the invitation card.
+Given list of records in file in following format:
+firstName,lastName,gender,age,city,state,country
+Usages-
+1.Mr/Ms First Last
+2.Mr/Ms Last, First
+Assumption-
+Name should be prefixed according to gender.
+female - Ms
+male - Mr
+
+-------------------------------------------------------------------------------------------------------
+TODO for library-
+
+1.decide entities and create tests for each entities.
+Person - (takes Name ,Address and age)
+Address -
+Name - (included prefix)
+Gender - (using enum)
+2. person should hold the record of information needed.so person is the main entity.
+3. Person should handle the both choices for representing the name(As mentioned above) .
+
+
+---------------------------------------------------------------------------------------------------------
+TODO for main-
+
+1.read File Name from command line
+2.convert the file data into corresponding objects.
+
+---------------------------------------------------------------------------------------------------------
+
+./printLabel_firstLast.sh [records.txt]
+./printLabel_lastFirst.sh [records.txt]
+
+$ cat records.txt
+Siva, Sivadasan, Male, 19, Thrissur, Kerala, India
+Sivasree, Sivadasan, Female, 20, Thrissur, Kerala, India
+
+$ java InvitationCard --firstLast records.txt
+Mr Siva Sivadasan
+Ms Sivasree Sivadasan
+
+java InvitationCard -f records.txt
+
+
+("-h"| "help", "Show help");
+("-f"| "firstLast", "First last name")
+("-l"| "lastFirst", "Last first name");
+("-c"| "nameWithCountry", "Name with Country");
+
+
+recognising Guest as an entity :
+firstName,lastName,gender,age,city,state,country
+
+Reading guest records from the file
+getting guest labels
+------------------------------------------------

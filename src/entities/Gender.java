@@ -1,7 +1,17 @@
 package entities;
 
-/**
- * Created by ashwinka on 10/03/16.
- */
-public class Gender {
+public enum Gender {
+    Male("Mr"),
+    Female("Ms");
+
+    private String prefix;
+
+    Gender(String prefix) {
+        this.prefix = prefix;
+    }
+
+    @Override
+    public String toString(){
+        return prefix;
+    }
 }
