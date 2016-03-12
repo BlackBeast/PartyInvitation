@@ -1,22 +1,22 @@
 package app;
 
-import entities.Name;
+import cmdArgSeparator.CmdArgSeparator;
 import entities.Person;
 import guestGenerator.GuestListParser;
-import nameFormats.FormalName;
-import nameFormats.InformalName;
+import printingUtilities.ConsolePrinter;
 
 import java.io.*;
 import java.util.ArrayList;
 public class LabelPrinter {
 
     public static void main(String[] args) throws IOException {
-//        String fileName = CmdArgSeparator.fileSeparator(args);
-        String fileData = readFile("./data/records");
+        CmdArgSeparator arguments = new CmdArgSeparator(args);
+        String[] option = arguments.options;
+        String [] files = arguments.nonOptions;
+        String fileData = readFile(files[0]);
         ArrayList<Person> guestList = new GuestListParser(fileData).parse();
-        for (Person person : guestList) {
-            System.out.println(person.formatUsing(new InformalName()));
-        }
+        ConsolePrinter printingList = new ConsolePrinter();
+        printingList.print(guestList,option[0]);
 
     }
 
