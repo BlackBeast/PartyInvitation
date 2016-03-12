@@ -12,7 +12,7 @@ public class AgeFilterTest {
     @Test
     public void test_person_class_to_find_wheather_the_person_is_above_a_particular_age() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
-        Address address = new Address("Uganda");
+        Address address = new Address("Masaka","Kampala","Uganda");
         Person person = new Person(name,address,"Female",21);
         AgeFilter ageLimit = new AgeFilter(20);
         assertTrue(ageLimit.isAValidGuest(person));
@@ -21,7 +21,7 @@ public class AgeFilterTest {
     @Test
     public void test_person_class_to_find_wheather_the_person_is_of_a_particular_age() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
-        Address address = new Address("Uganda");
+        Address address = new Address("Masaka","Kampala","Uganda");
         Person person = new Person(name,address,"Female",21);
         AgeFilter ageLimit = new AgeFilter(21);
         assertTrue(ageLimit.isAValidGuest(person));
@@ -30,7 +30,7 @@ public class AgeFilterTest {
     @Test
     public void test_person_class_to_find_wheather_the_person_is_below_a_particular_age() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
-        Address address = new Address("Uganda");
+        Address address = new Address("Masaka","Kampala","Uganda");
         Person person = new Person(name,address,"Female",21);
         AgeFilter ageLimit = new AgeFilter(25);
         assertFalse(ageLimit.isAValidGuest(person));

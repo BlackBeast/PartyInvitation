@@ -12,7 +12,7 @@ public class StyleTest {
     public void for_checking_if_the_printing_style_works_with_option_i() throws Exception {
         Style style = new Style("-i");
         Name name = new Name("Ashwin", "Kumar");
-        Address address = new Address("India");
+        Address address = new Address("Ernakulam","Kerala","India");
         int age = 22;
         String gender = "Male";
         Person guest = new Person(name,address,gender,age);
@@ -24,7 +24,7 @@ public class StyleTest {
     public void for_checking_if_the_printing_style_works_with_option_f() throws Exception {
         Style style = new Style("-f");
         Name name = new Name("Ashwin", "Kumar");
-        Address address = new Address("India");
+        Address address = new Address("Ernakulam","Kerala","India");
         int age = 22;
         String gender = "Male";
         Person guest = new Person(name,address,gender,age);

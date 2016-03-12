@@ -12,7 +12,7 @@ public class CountryFilterTest {
     @Test
     public void test_person_class_to_find_wheather_the_person_is_above_a_particular_country() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
-        Address address = new Address("Uganda");
+        Address address = new Address("Masaka","Kampala","Uganda");
         Person person = new Person(name,address,"Female",21);
         CountryFilter validCountry = new CountryFilter("Uganda");
         assertTrue(validCountry.isAValidGuest(person));
@@ -21,7 +21,7 @@ public class CountryFilterTest {
     @Test
     public void test_person_class_to_find_wheather_the_person_is_of_a_particular_country() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
-        Address address = new Address("Uganda");
+        Address address = new Address("Masaka","Kampala","Uganda");
         Person person = new Person(name,address,"Female",21);
         CountryFilter validCountry = new CountryFilter("India");
         assertFalse(validCountry.isAValidGuest(person));

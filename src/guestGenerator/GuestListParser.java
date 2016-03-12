@@ -21,7 +21,7 @@ public class GuestListParser {
         for (String personString : newLineSeparatedString) {
             String[] personDetails = personString.split(",");
             Name name = new Name(personDetails[0],personDetails[1]);
-            Address address = new Address(personDetails[6]);
+            Address address = new Address(personDetails[4],personDetails[5],personDetails[6]);
             int age = Integer.parseInt(personDetails[3]);
             String gender = personDetails[2];
             Person guest = new Person(name,address,gender,age);
