@@ -8,7 +8,7 @@ import nameFormats.InformalName;
 import java.util.HashMap;
 
 public class Style {
-    private String option;
+    protected String option;
     private HashMap<String, FormatRepresentation> style;
 
     public Style(String option) {

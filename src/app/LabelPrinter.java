@@ -4,6 +4,7 @@ import cmdArgSeparator.CmdArgSeparator;
 import entities.Person;
 import guestGenerator.GuestListParser;
 import printingUtilities.ConsolePrinter;
+import printingUtilities.Printer;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ public class LabelPrinter {
         String [] files = arguments.nonOptions;
         String fileData = readFile(files[0]);
         ArrayList<Person> guestList = new GuestListParser(fileData).parse();
-        ConsolePrinter printingList = new ConsolePrinter();
+        Printer printingList = new ConsolePrinter();
         printingList.print(guestList,option[0]);
 
     }

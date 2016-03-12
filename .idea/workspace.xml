@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f8df3a4-184b-4f10-a2f5-47c242e0a368" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/printingUtilities/ConsolePrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/printingUtilities/Printer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/printingUtilities/Style.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/printingUtilities/StyleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PartyInvitation/app/LabelPrinter.class" afterPath="$PROJECT_DIR$/out/production/PartyInvitation/app/LabelPrinter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PartyInvitation/cmdArgSeparator/CmdArgSeparator.class" afterPath="$PROJECT_DIR$/out/production/PartyInvitation/cmdArgSeparator/CmdArgSeparator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/LabelPrinter.java" afterPath="$PROJECT_DIR$/src/app/LabelPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmdArgSeparator/CmdArgSeparator.java" afterPath="$PROJECT_DIR$/src/cmdArgSeparator/CmdArgSeparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/printingUtilities/Style.java" afterPath="$PROJECT_DIR$/src/printingUtilities/Style.java" />
     </list>
     <ignored path="PartyInvitation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,24 +39,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabelPrinter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/LabelPrinter.java">
+      <file leaf-file-name="Name.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Name.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountryFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/filterMethods/CountryFilter.java">
+      <file leaf-file-name="LabelPrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/LabelPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/entities/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#683#684#0" expanded="true" />
                 <element signature="e#751#752#0" expanded="true" />
@@ -101,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/printingUtilities/ConsolePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="62" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/printingUtilities/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30383974">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,22 +124,23 @@
         <entry file="file://$PROJECT_DIR$/src/printingUtilities/Style.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormalName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nameFormats/FormalName.java">
+      <file leaf-file-name="StyleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/printingUtilities/StyleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.69616026">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +150,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -185,10 +185,11 @@
         <option value="$PROJECT_DIR$/src/entities/Name.java" />
         <option value="$PROJECT_DIR$/src/nameFormats/FormatRepresentation.java" />
         <option value="$PROJECT_DIR$/src/cmdArgSeparator/CmdArgSeparator.java" />
-        <option value="$PROJECT_DIR$/src/printingUtilities/Style.java" />
-        <option value="$PROJECT_DIR$/src/app/LabelPrinter.java" />
         <option value="$PROJECT_DIR$/src/printingUtilities/ConsolePrinter.java" />
         <option value="$PROJECT_DIR$/src/printingUtilities/Printer.java" />
+        <option value="$PROJECT_DIR$/src/app/LabelPrinter.java" />
+        <option value="$PROJECT_DIR$/src/printingUtilities/Style.java" />
+        <option value="$PROJECT_DIR$/test/printingUtilities/StyleTest.java" />
       </list>
     </option>
   </component>
@@ -284,7 +285,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PartyInvitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PartyInvitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="printingUtilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,6 +407,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PartyInvitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PartyInvitation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -414,6 +447,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="printingUtilities" />
       <recent name="filterMethods" />
       <recent name="entities" />
     </key>
@@ -427,7 +461,7 @@
       <recent name="$PROJECT_DIR$/src/filterMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LabelPrinter">
+  <component name="RunManager" selected="JUnit.StyleTest.for_checking_if_the_printing_style_works_with_no_option">
     <configuration default="false" name="LabelPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -448,71 +482,19 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="AgeFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="filterMethods.*" />
+          <option name="PATTERN" value="printingUtilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="PartyInvitation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="filterMethods" />
-      <option name="MAIN_CLASS_NAME" value="filterMethods.AgeFilterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountryFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="filterMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PartyInvitation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="filterMethods" />
-      <option name="MAIN_CLASS_NAME" value="filterMethods.CountryFilterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountryFilterTest.test_person_class_to_find_wheather_the_person_is_above_a_particular_country" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="filterMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PartyInvitation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="filterMethods" />
-      <option name="MAIN_CLASS_NAME" value="filterMethods.CountryFilterTest" />
-      <option name="METHOD_NAME" value="test_person_class_to_find_wheather_the_person_is_above_a_particular_country" />
+      <option name="PACKAGE_NAME" value="printingUtilities" />
+      <option name="MAIN_CLASS_NAME" value="printingUtilities.StyleTest" />
+      <option name="METHOD_NAME" value="testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -526,15 +508,72 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="All in PartyInvitation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="StyleTest.for_checking_if_the_printing_style_works_with_option_i" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="printingUtilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="PartyInvitation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="printingUtilities" />
+      <option name="MAIN_CLASS_NAME" value="printingUtilities.StyleTest" />
+      <option name="METHOD_NAME" value="for_checking_if_the_printing_style_works_with_option_i" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StyleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="printingUtilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PartyInvitation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="printingUtilities" />
+      <option name="MAIN_CLASS_NAME" value="printingUtilities.StyleTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StyleTest.for_checking_if_the_printing_style_works_with_no_option" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="printingUtilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PartyInvitation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="printingUtilities" />
+      <option name="MAIN_CLASS_NAME" value="printingUtilities.StyleTest" />
+      <option name="METHOD_NAME" value="for_checking_if_the_printing_style_works_with_no_option" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -971,18 +1010,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.LabelPrinter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AgeFilterTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CountryFilterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CountryFilterTest.test_person_class_to_find_wheather_the_person_is_above_a_particular_country" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in PartyInvitation" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StyleTest.for_checking_if_the_printing_style_works_with_option_i" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StyleTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StyleTest.for_checking_if_the_printing_style_works_with_no_option" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LabelPrinter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in PartyInvitation" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CountryFilterTest.test_person_class_to_find_wheather_the_person_is_above_a_particular_country" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CountryFilterTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AgeFilterTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StyleTest.for_checking_if_the_printing_style_works_with_no_option" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StyleTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StyleTest.for_checking_if_the_printing_style_works_with_option_i" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LabelPrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -997,44 +1036,44 @@
       <option name="number" value="Default" />
       <updated>1457577489736</updated>
       <workItem from="1457577493708" duration="5138000" />
-      <workItem from="1457587947592" duration="36054000" />
+      <workItem from="1457587947592" duration="37631000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddressTest_test_method_inside_Address_class_to_check_if_the_person_is_from_the_same_country - 2016.03.10 at 12h 50m 28s.xml">
-      <configuration name="AddressTest.test_method_inside_Address_class_to_check_if_the_person_is_from_the_same_country" configurationId="JUnit" />
+    <history-entry file="StyleTest - 2016.03.12 at 11h 26m 07s.xml">
+      <configuration name="StyleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AgeFilterTest - 2016.03.10 at 21h 21m 56s.xml">
-      <configuration name="AgeFilterTest" configurationId="JUnit" />
+    <history-entry file="StyleTest - 2016.03.12 at 11h 26m 19s.xml">
+      <configuration name="StyleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_PartyInvitation - 2016.03.10 at 21h 36m 01s.xml">
-      <configuration name="All in PartyInvitation" configurationId="JUnit" />
+    <history-entry file="StyleTest - 2016.03.12 at 11h 27m 04s.xml">
+      <configuration name="StyleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryFilterTest - 2016.03.10 at 21h 33m 27s.xml">
-      <configuration name="CountryFilterTest" configurationId="JUnit" />
+    <history-entry file="StyleTest_for_checking_if_the_printing_style_works_with_no_option - 2016.03.12 at 11h 27m 43s.xml">
+      <configuration name="StyleTest.for_checking_if_the_printing_style_works_with_no_option" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryFilterTest_test_person_class_to_find_wheather_the_person_is_above_a_particular_country - 2016.03.10 at 21h 33m 58s.xml">
-      <configuration name="CountryFilterTest.test_person_class_to_find_wheather_the_person_is_above_a_particular_country" configurationId="JUnit" />
+    <history-entry file="StyleTest_for_checking_if_the_printing_style_works_with_option_i - 2016.03.12 at 11h 25m 33s.xml">
+      <configuration name="StyleTest.for_checking_if_the_printing_style_works_with_option_i" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryFilterTest_test_person_class_to_find_wheather_the_person_is_above_a_particular_country - 2016.03.10 at 21h 35m 15s.xml">
-      <configuration name="CountryFilterTest.test_person_class_to_find_wheather_the_person_is_above_a_particular_country" configurationId="JUnit" />
+    <history-entry file="StyleTest_testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter - 2016.03.12 at 11h 20m 17s.xml">
+      <configuration name="StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2016.03.10 at 21h 07m 42s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="StyleTest_testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter - 2016.03.12 at 11h 20m 38s.xml">
+      <configuration name="StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2016.03.10 at 21h 09m 32s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="StyleTest_testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter - 2016.03.12 at 11h 21m 31s.xml">
+      <configuration name="StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2016.03.10 at 21h 09m 50s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="StyleTest_testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter - 2016.03.12 at 11h 21m 48s.xml">
+      <configuration name="StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_test_person_class_to_find_wheather_the_person_knows_his_or_her_age - 2016.03.10 at 13h 02m 20s.xml">
-      <configuration name="PersonTest.test_person_class_to_find_wheather_the_person_knows_his_or_her_age" configurationId="JUnit" />
+    <history-entry file="StyleTest_testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter - 2016.03.12 at 11h 21m 55s.xml">
+      <configuration name="StyleTest.testForThePrintingStyleToGetTheNameInFirstLastOrdeForNoFilter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41192000" />
+    <option name="totallyTimeSpent" value="42769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1057,7 +1096,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.497552" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.497552" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249694" sideWeight="0.49625668" order="0" side_tool="false" content_ui="combo" />
@@ -1348,14 +1387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nameFormats/FormalName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1380,44 +1411,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/printingUtilities/Style.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cmdArgSeparator/CmdArgSeparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/LabelPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,7 +1430,7 @@
     <entry file="file://$PROJECT_DIR$/src/printingUtilities/ConsolePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="62" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1441,8 +1439,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/printingUtilities/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30383974">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/LabelPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printingUtilities/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/printingUtilities/StyleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69616026">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
