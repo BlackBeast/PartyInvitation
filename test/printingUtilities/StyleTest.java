@@ -2,6 +2,7 @@ package printingUtilities;
 
 
 import entities.Address;
+import entities.Age;
 import entities.Name;
 import entities.Person;
 import org.junit.Assert;
@@ -13,7 +14,7 @@ public class StyleTest {
         Style style = new Style("-i");
         Name name = new Name("Ashwin", "Kumar");
         Address address = new Address("Ernakulam","Kerala","India");
-        int age = 22;
+        Age age = new Age(21);
         String gender = "Male";
         Person guest = new Person(name,address,gender,age);
         String styleInfo = style.accessName(guest,style.option);
@@ -25,7 +26,7 @@ public class StyleTest {
         Style style = new Style("-f");
         Name name = new Name("Ashwin", "Kumar");
         Address address = new Address("Ernakulam","Kerala","India");
-        int age = 22;
+        Age age = new Age(21);
         String gender = "Male";
         Person guest = new Person(name,address,gender,age);
         String styleInfo = style.accessName(guest,style.option);

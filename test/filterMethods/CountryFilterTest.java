@@ -1,6 +1,7 @@
 package filterMethods;
 
 import entities.Address;
+import entities.Age;
 import entities.Name;
 import entities.Person;
 import org.junit.Test;
@@ -13,7 +14,8 @@ public class CountryFilterTest {
     public void test_person_class_to_find_wheather_the_person_is_above_a_particular_country() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
         Address address = new Address("Masaka","Kampala","Uganda");
-        Person person = new Person(name,address,"Female",21);
+        Age age = new Age(21);
+        Person person = new Person(name,address,"Female",age);
         CountryFilter validCountry = new CountryFilter("Uganda");
         assertTrue(validCountry.isAValidGuest(person));
     }
@@ -22,7 +24,8 @@ public class CountryFilterTest {
     public void test_person_class_to_find_wheather_the_person_is_of_a_particular_country() throws Exception {
         Name name = new Name("Jaanu","Sivadasan");
         Address address = new Address("Masaka","Kampala","Uganda");
-        Person person = new Person(name,address,"Female",21);
+        Age age = new Age(21);
+        Person person = new Person(name,address,"Female",age);
         CountryFilter validCountry = new CountryFilter("India");
         assertFalse(validCountry.isAValidGuest(person));
     }

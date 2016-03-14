@@ -3,12 +3,12 @@ package entities;
 import nameFormats.FormatRepresentation;
 
 public class Person {
-    protected Name name;
-    protected Address address;
-    protected String gender;
-    protected int age;
+    private Name name;
+    private Address address;
+    private String gender;
+    private Age age;
 
-    public Person(Name name, Address address, String gender, int age) {
+    public Person(Name name, Address address, String gender, Age age) {
         this.name = name;
         this.address = address;
         this.gender = gender;
@@ -20,7 +20,7 @@ public class Person {
     }
 
     public boolean isOfOrAboveAge(int givenAge) {
-        return this.age >= givenAge;
+        return age.checkIfThePersonIsOfOrAboveAge(givenAge);
     }
 
     public boolean isOfThisCountry(String givenCountry){
