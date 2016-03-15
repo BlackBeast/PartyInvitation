@@ -12,6 +12,6 @@ public class Age {
     }
 
     public boolean checkIfThePersonIsOfOrAboveAge(int givenAge){
-        return age >= age;
+        return age >= givenAge;
     }
 }
