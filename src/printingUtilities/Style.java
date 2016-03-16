@@ -8,11 +8,9 @@ import nameFormats.InformalName;
 import java.util.HashMap;
 
 public class Style {
-    protected String option;
     private HashMap<String, FormatRepresentation> style;
 
-    public Style(String option) {
-        this.option = option;
+    public Style() {
         this.style = new HashMap<String, FormatRepresentation>();
         this.style.put("-f",new FormalName());
         this.style.put("-i",new InformalName());
